@@ -2,3 +2,11 @@ parameters:
   acme_blog.author.email: 'fabien@example.com'
 
 services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  Nhc\LoginBundle\Controller\:
+    resource: '../src/Controller'
+    tags: [ 'controller.service_arguments' ]

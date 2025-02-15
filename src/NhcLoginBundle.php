@@ -17,9 +17,6 @@ class NhcLoginBundle extends AbstractBundle
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
         $container->import('../config/services.yaml');
-
-        $builder->setParameter('nhc.login.enabled', 'xinchao');
-
-        $container->parameters()->set('nhc.login.username', 'xinchao asd');
+        $container->import('../config/packages/nhc_login.yaml');
     }
 }
