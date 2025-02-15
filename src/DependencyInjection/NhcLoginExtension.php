@@ -20,5 +20,6 @@ class NhcLoginExtension extends Extension
             new FileLocator(__DIR__.'/../../config')
         );
         $loader->load('services.yaml');
+        $container->setParameter('acme_blog.author.email', $configs['acme_blog.author.email']);
     }
 }
