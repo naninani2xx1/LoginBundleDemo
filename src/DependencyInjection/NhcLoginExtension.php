@@ -20,14 +20,5 @@ class NhcLoginExtension extends Extension
             new FileLocator(__DIR__.'/../../config')
         );
         $loader->load('services.yaml');
-
-        // $this->addAnnotatedClassesToCompile([
-        //     // you can define the fully qualified class names...
-        //     'Acme\\BlogBundle\\Controller\\AuthorController',
-        //     // ... but glob patterns are also supported:
-        //     'Acme\\BlogBundle\\Form\\**',
-
-        //     // ...
-        // ]);
     }
 }
