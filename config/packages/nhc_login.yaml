@@ -1,0 +1,4 @@
+nch_login:
+  twitter:
+    client_id: 123
+    client_secret: your_secret

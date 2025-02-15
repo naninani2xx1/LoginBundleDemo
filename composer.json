@@ -1,0 +1,24 @@
+{
+    "name": "nhc/login-bundle",
+    "description": "This is a bundle login basic in symfony 6.4",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/framework-bundle": "6.4",
+        "symfony/serializer": "6.4",
+        "symfony/security-bundle": "6.4",
+        "symfony/twig-bundle": "6.4",
+        "symfony/yaml": "6.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nhc\\LoginBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "naninani2xx1",
+            "email": "nhchuong2001@gmail.com"
+        }
+    ]
+}
