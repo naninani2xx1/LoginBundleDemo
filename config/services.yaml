@@ -2,6 +2,6 @@ parameters:
   acme_blog.author.email: 'fabien@example.com'
 
 services:
-  App\Controller\:
+  Nhc\LoginBundle\Controller\:
     resource: '../../Controller'
     tags: [ 'controller.service_arguments' ]
